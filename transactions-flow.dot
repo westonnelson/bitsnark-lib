@@ -1,0 +1,46 @@
+digraph BitSnark {
+    /* Styling. */
+    node [shape=note]
+    {node [shape=point] o0 o1 o2 o3 o4 o5 o6 o7 o8}
+    {node [shape=oval] "Prover Stake" "Verifier Fee" "Hinged Funds" "Prover Wallet" "Verifier Wallet"}
+    {node [color=green] "Proof" "No Challenge" "Proof Accepted" "State 1" "State 2" "State n" "Verifier Defaulted 1" "Verifier Defaulted 2" "Verifier Defaulted n" "Argument"}
+    {node [color=blue] "Challenge" "Prover Defaulted" "Proof Refuted" "Select 1" "Select n" "Prover Defaulted 1" "Prover Defaulted n"}
+    "Hinged Funds" [style=dashed]
+
+    /* Main Flow. */
+    "Hinged Funds" -> o0 [arrowhead=none]
+    o0 -> {"No Challenge"; "Proof Accepted"} -> "Prover Wallet"
+    "Prover Stake" -> "Proof"
+    "Proof" -> o1 [arrowhead=none]
+    "Proof" -> o2 [arrowhead=none; color=cyan]
+    o2 -> {"No Challenge"; "Challenge"} [color=cyan]
+    o1 -> "No Challenge" [style=dashed; color=green]
+    "Verifier Fee" -> "Challenge" -> "Prover Wallet"
+    o1 -> "Prover Defaulted" [style=dashed; color=blue]
+    "Prover Defaulted" -> "Verifier Wallet" [weight=1]
+
+    /* Contention Bisection. */
+    o1 -> "State 1" [weight=5]
+    "State 1" -> o3 [arrowhead=none; weight=2]
+    o3 -> "Select 1" [weight=5]
+    o3 -> "Verifier Defaulted 1" [style=dashed]
+    "Select 1" -> o4 [arrowhead=none; weight=5]
+    o4 -> "State 2" [weight=5]
+    o4 -> "Prover Defaulted 1" [style=dashed]
+    "State 2" -> o5 [arrowhead=none; weight=5]
+    o5 -> "State n" [style=dotted; weight=5]
+    o5 -> "Verifier Defaulted 2" [style=dashed]
+    "State n" -> o6 [arrowhead=none; weight=5]
+    o6 -> "Select n" [weight=5]
+    o6 -> "Verifier Defaulted n" [style=dashed]
+    "Select n" -> o7 [arrowhead=none; weight=5]
+    o7 -> "Argument" [weight=5]
+    o7 -> "Prover Defaulted n" [style=dashed]
+
+    /* Contention Resolution. */
+    "Argument" -> o8  [arrowhead=none]
+    o8 -> "Proof Refuted"
+    o8 -> "Proof Accepted" [style=dashed]
+    "Proof Refuted" -> "Verifier Wallet"
+}
+
