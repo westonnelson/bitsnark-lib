@@ -1,418 +1,436 @@
-<svg width="616" height="548" viewBox="0.00 0.00 663.96 1034.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="translate(3.9999938011169434, 1030)">
+<svg width="616" height="548" viewBox="0.00 0.00 758.7 1066.4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(4, 1062.4000244140625)">
 <title>BitSnark</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-1030 659.96,-1030 659.96,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1062.4 754.7,-1062.4 754.7,4 -4,4"/>
 <!-- o0 -->
 <g id="node1" class="node">
 <title>o0</title>
-<ellipse fill="black" stroke="black" cx="262.95" cy="-162" rx="1.8" ry="1.8"/>
+<ellipse fill="black" stroke="black" cx="542.75" cy="-162" rx="1.8" ry="1.8"/>
 </g>
 <!-- No Challenge -->
 <g id="node16" class="node">
 <title>No Challenge</title>
-<polygon fill="none" stroke="green" points="210.64,-108 123.27,-108 123.27,-72 216.64,-72 216.64,-102 210.64,-108"/>
-<polyline fill="none" stroke="green" points="210.64,-108 210.64,-102"/>
-<polyline fill="none" stroke="green" points="216.64,-102 210.64,-102"/>
-<text text-anchor="middle" x="169.95" y="-85.8" font-family="Times,serif" font-size="14.00">No Challenge</text>
+<polygon fill="none" stroke="green" points="621.43,-108 534.06,-108 534.06,-72 627.43,-72 627.43,-102 621.43,-108"/>
+<polyline fill="none" stroke="green" points="621.43,-108 621.43,-102"/>
+<polyline fill="none" stroke="green" points="627.43,-102 621.43,-102"/>
+<text text-anchor="middle" x="580.75" y="-85.8" font-family="Times,serif" font-size="14.00">No Challenge</text>
 </g>
 <!-- o0&#45;&gt;No Challenge -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>o0-&gt;No Challenge</title>
-<path fill="none" stroke="black" d="M261.91,-160.21C256,-155.77 226.16,-133.3 202.05,-115.16"/>
-<polygon fill="black" stroke="black" points="204.46,-112.59 194.36,-109.37 200.25,-118.18 204.46,-112.59"/>
+<path fill="none" stroke="black" d="M543.28,-160.01C545.8,-155.37 556.71,-135.27 566.12,-117.95"/>
+<polygon fill="black" stroke="black" points="568.99,-120 570.68,-109.54 562.83,-116.66 568.99,-120"/>
 </g>
 <!-- Proof Accepted -->
 <g id="node17" class="node">
 <title>Proof Accepted</title>
-<polygon fill="none" stroke="green" points="331.69,-108 234.22,-108 234.22,-72 337.69,-72 337.69,-102 331.69,-108"/>
-<polyline fill="none" stroke="green" points="331.69,-108 331.69,-102"/>
-<polyline fill="none" stroke="green" points="337.69,-102 331.69,-102"/>
-<text text-anchor="middle" x="285.95" y="-85.8" font-family="Times,serif" font-size="14.00">Proof Accepted</text>
+<polygon fill="none" stroke="green" points="510.48,-108 413.01,-108 413.01,-72 516.48,-72 516.48,-102 510.48,-108"/>
+<polyline fill="none" stroke="green" points="510.48,-108 510.48,-102"/>
+<polyline fill="none" stroke="green" points="516.48,-102 510.48,-102"/>
+<text text-anchor="middle" x="464.75" y="-85.8" font-family="Times,serif" font-size="14.00">Proof Accepted</text>
 </g>
 <!-- o0&#45;&gt;Proof Accepted -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>o0-&gt;Proof Accepted</title>
-<path fill="none" stroke="black" d="M263.35,-159.79C264.98,-154.84 271.27,-135.69 276.8,-118.85"/>
-<polygon fill="black" stroke="black" points="280,-120.32 279.8,-109.73 273.35,-118.14 280,-120.32"/>
+<path fill="none" stroke="black" d="M541.64,-160.01C536.26,-155.18 512.16,-133.55 492.36,-115.78"/>
+<polygon fill="black" stroke="black" points="494.83,-113.3 485.05,-109.22 490.16,-118.51 494.83,-113.3"/>
 </g>
 <!-- o1 -->
 <g id="node2" class="node">
 <title>o1</title>
-<ellipse fill="black" stroke="black" cx="523.95" cy="-880.2" rx="1.8" ry="1.8"/>
+<ellipse fill="black" stroke="black" cx="244.75" cy="-912.6" rx="1.8" ry="1.8"/>
 </g>
 <!-- o1&#45;&gt;No Challenge -->
-<g id="edge11" class="edge">
+<g id="edge10" class="edge">
 <title>o1-&gt;No Challenge</title>
-<path fill="none" stroke="green" stroke-dasharray="5,2" d="M522.05,-878.97C494.19,-875.49 169.95,-833.3 169.95,-753.4 169.95,-753.4 169.95,-753.4 169.95,-233 169.95,-193.74 169.95,-148.38 169.95,-119.69"/>
-<polygon fill="green" stroke="green" points="173.45,-120 169.95,-110 166.45,-120 173.45,-120"/>
+<path fill="none" stroke="green" stroke-dasharray="5,2" d="M246.55,-911.35C273,-907.58 580.75,-862.1 580.75,-785.8 580.75,-785.8 580.75,-785.8 580.75,-233 580.75,-193.74 580.75,-148.38 580.75,-119.69"/>
+<polygon fill="green" stroke="green" points="584.25,-120 580.75,-110 577.25,-120 584.25,-120"/>
 </g>
 <!-- State 1 -->
 <g id="node18" class="node">
 <title>State 1</title>
-<polygon fill="none" stroke="green" points="545.2,-842.4 496.71,-842.4 496.71,-806.4 551.2,-806.4 551.2,-836.4 545.2,-842.4"/>
-<polyline fill="none" stroke="green" points="545.2,-842.4 545.2,-836.4"/>
-<polyline fill="none" stroke="green" points="551.2,-836.4 545.2,-836.4"/>
-<text text-anchor="middle" x="523.95" y="-820.2" font-family="Times,serif" font-size="14.00">State 1</text>
+<polygon fill="none" stroke="green" points="265.99,-874.8 217.5,-874.8 217.5,-838.8 271.99,-838.8 271.99,-868.8 265.99,-874.8"/>
+<polyline fill="none" stroke="green" points="265.99,-874.8 265.99,-868.8"/>
+<polyline fill="none" stroke="green" points="271.99,-868.8 265.99,-868.8"/>
+<text text-anchor="middle" x="244.75" y="-852.6" font-family="Times,serif" font-size="14.00">State 1</text>
 </g>
 <!-- o1&#45;&gt;State 1 -->
-<g id="edge16" class="edge">
+<g id="edge15" class="edge">
 <title>o1-&gt;State 1</title>
-<path fill="none" stroke="black" d="M523.95,-878.27C523.95,-875.17 523.95,-864.84 523.95,-854.12"/>
-<polygon fill="black" stroke="black" points="527.45,-854.17 523.95,-844.17 520.45,-854.17 527.45,-854.17"/>
+<path fill="none" stroke="black" d="M244.75,-910.67C244.75,-907.57 244.75,-897.24 244.75,-886.52"/>
+<polygon fill="black" stroke="black" points="248.25,-886.57 244.75,-876.57 241.25,-886.57 248.25,-886.57"/>
 </g>
 <!-- Prover Defaulted -->
 <g id="node26" class="node">
-<title>Prover Defaulted</title>
-<polygon fill="none" stroke="blue" points="649.96,-770.4 543.95,-770.4 543.95,-734.4 655.96,-734.4 655.96,-764.4 649.96,-770.4"/>
-<polyline fill="none" stroke="blue" points="649.96,-770.4 649.96,-764.4"/>
-<polyline fill="none" stroke="blue" points="655.96,-764.4 649.96,-764.4"/>
-<text text-anchor="middle" x="599.95" y="-748.2" font-family="Times,serif" font-size="14.00">Prover Defaulted</text>
+<title>Verifier Unchallenged</title>
+<polygon fill="none" stroke="blue" points="146.52,-658.8 10.97,-658.8 10.97,-622.8 152.52,-622.8 152.52,-652.8 146.52,-658.8"/>
+<polyline fill="none" stroke="blue" points="146.52,-658.8 146.52,-652.8"/>
+<polyline fill="none" stroke="blue" points="152.52,-652.8 146.52,-652.8"/>
+<text text-anchor="middle" x="81.75" y="-636.6" font-family="Times,serif" font-size="14.00">Verifier Unchallenged</text>
 </g>
 <!-- o1&#45;&gt;Prover Defaulted -->
-<g id="edge14" class="edge">
-<title>o1-&gt;Prover Defaulted</title>
-<path fill="none" stroke="blue" stroke-dasharray="5,2" d="M524.97,-878.39C529.57,-874.71 548.68,-858.94 559.95,-842.4 572.85,-823.48 583.28,-799.73 590.25,-781.52"/>
-<polygon fill="blue" stroke="blue" points="593.53,-782.74 593.71,-772.15 586.97,-780.32 593.53,-782.74"/>
+<g id="edge13" class="edge">
+<title>o1-&gt;Verifier Unchallenged</title>
+<path fill="none" stroke="blue" d="M243.76,-910.77C239.29,-907 220.65,-890.9 208.75,-874.8 157.99,-806.16 114.17,-714.82 93.84,-669.59"/>
+<polygon fill="blue" stroke="blue" points="97.07,-668.23 89.81,-660.52 90.67,-671.08 97.07,-668.23"/>
 </g>
 <!-- o2 -->
 <g id="node3" class="node">
 <title>o2</title>
-<ellipse fill="black" stroke="black" cx="135.95" cy="-162" rx="1.8" ry="1.8"/>
+<ellipse fill="black" stroke="black" cx="614.75" cy="-162" rx="1.8" ry="1.8"/>
 </g>
 <!-- o2&#45;&gt;No Challenge -->
-<g id="edge9" class="edge">
+<g id="edge8" class="edge">
 <title>o2-&gt;No Challenge</title>
-<path fill="none" stroke="cyan" d="M136.54,-159.79C138.97,-154.79 148.42,-135.33 156.66,-118.37"/>
-<polygon fill="cyan" stroke="cyan" points="159.67,-120.18 160.89,-109.65 153.38,-117.12 159.67,-120.18"/>
+<path fill="none" stroke="cyan" d="M614.16,-159.79C611.73,-154.79 602.28,-135.33 594.04,-118.37"/>
+<polygon fill="cyan" stroke="cyan" points="597.32,-117.12 589.81,-109.65 591.03,-120.18 597.32,-117.12"/>
 </g>
 <!-- Challenge -->
 <g id="node25" class="node">
 <title>Challenge</title>
-<polygon fill="none" stroke="blue" points="99.33,-108 32.57,-108 32.57,-72 105.33,-72 105.33,-102 99.33,-108"/>
-<polyline fill="none" stroke="blue" points="99.33,-108 99.33,-102"/>
-<polyline fill="none" stroke="blue" points="105.33,-102 99.33,-102"/>
-<text text-anchor="middle" x="68.95" y="-85.8" font-family="Times,serif" font-size="14.00">Challenge</text>
+<polygon fill="none" stroke="blue" points="712.13,-108 645.37,-108 645.37,-72 718.13,-72 718.13,-102 712.13,-108"/>
+<polyline fill="none" stroke="blue" points="712.13,-108 712.13,-102"/>
+<polyline fill="none" stroke="blue" points="718.13,-102 712.13,-102"/>
+<text text-anchor="middle" x="681.75" y="-85.8" font-family="Times,serif" font-size="14.00">Challenge</text>
 </g>
 <!-- o2&#45;&gt;Challenge -->
-<g id="edge10" class="edge">
+<g id="edge9" class="edge">
 <title>o2-&gt;Challenge</title>
-<path fill="none" stroke="cyan" d="M135.43,-160.02C133.97,-157.33 129.63,-149.62 124.95,-144 116.85,-134.25 107.07,-124.46 97.97,-115.99"/>
-<polygon fill="cyan" stroke="cyan" points="100.41,-113.48 90.65,-109.34 95.7,-118.66 100.41,-113.48"/>
+<path fill="none" stroke="cyan" d="M615.27,-160.02C616.73,-157.33 621.07,-149.62 625.75,-144 633.85,-134.25 643.63,-124.46 652.73,-115.99"/>
+<polygon fill="cyan" stroke="cyan" points="655,-118.66 660.05,-109.34 650.29,-113.48 655,-118.66"/>
 </g>
 <!-- o3 -->
 <g id="node4" class="node">
 <title>o3</title>
-<ellipse fill="black" stroke="black" cx="523.95" cy="-752.4" rx="1.8" ry="1.8"/>
+<ellipse fill="black" stroke="black" cx="244.75" cy="-784.8" rx="1.8" ry="1.8"/>
 </g>
 <!-- Verifier Defaulted 1 -->
 <g id="node21" class="node">
-<title>Verifier Defaulted 1</title>
-<polygon fill="none" stroke="green" points="469.7,-698.4 346.21,-698.4 346.21,-662.4 475.7,-662.4 475.7,-692.4 469.7,-698.4"/>
-<polyline fill="none" stroke="green" points="469.7,-698.4 469.7,-692.4"/>
-<polyline fill="none" stroke="green" points="475.7,-692.4 469.7,-692.4"/>
-<text text-anchor="middle" x="410.95" y="-676.2" font-family="Times,serif" font-size="14.00">Verifier Defaulted 1</text>
+<title>Prover Unchallenged 1</title>
+<polygon fill="none" stroke="green" points="432.28,-730.8 293.21,-730.8 293.21,-694.8 438.28,-694.8 438.28,-724.8 432.28,-730.8"/>
+<polyline fill="none" stroke="green" points="432.28,-730.8 432.28,-724.8"/>
+<polyline fill="none" stroke="green" points="438.28,-724.8 432.28,-724.8"/>
+<text text-anchor="middle" x="365.75" y="-708.6" font-family="Times,serif" font-size="14.00">Prover Unchallenged 1</text>
 </g>
 <!-- o3&#45;&gt;Verifier Defaulted 1 -->
-<g id="edge19" class="edge">
-<title>o3-&gt;Verifier Defaulted 1</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M522.68,-750.61C515.41,-746.11 478.28,-723.11 448.79,-704.84"/>
-<polygon fill="black" stroke="black" points="450.77,-701.95 440.43,-699.66 447.09,-707.9 450.77,-701.95"/>
+<g id="edge18" class="edge">
+<title>o3-&gt;Prover Unchallenged 1</title>
+<path fill="none" stroke="black" d="M246.11,-783.01C253.93,-778.49 294,-755.31 325.64,-737"/>
+<polygon fill="black" stroke="black" points="327.35,-740.06 334.25,-732.02 323.85,-734 327.35,-740.06"/>
 </g>
 <!-- Select 1 -->
 <g id="node28" class="node">
 <title>Select 1</title>
-<polygon fill="none" stroke="blue" points="548.31,-698.4 493.6,-698.4 493.6,-662.4 554.31,-662.4 554.31,-692.4 548.31,-698.4"/>
-<polyline fill="none" stroke="blue" points="548.31,-698.4 548.31,-692.4"/>
-<polyline fill="none" stroke="blue" points="554.31,-692.4 548.31,-692.4"/>
-<text text-anchor="middle" x="523.95" y="-676.2" font-family="Times,serif" font-size="14.00">Select 1</text>
+<polygon fill="none" stroke="blue" points="269.1,-730.8 214.39,-730.8 214.39,-694.8 275.1,-694.8 275.1,-724.8 269.1,-730.8"/>
+<polyline fill="none" stroke="blue" points="269.1,-730.8 269.1,-724.8"/>
+<polyline fill="none" stroke="blue" points="275.1,-724.8 269.1,-724.8"/>
+<text text-anchor="middle" x="244.75" y="-708.6" font-family="Times,serif" font-size="14.00">Select 1</text>
 </g>
 <!-- o3&#45;&gt;Select 1 -->
-<g id="edge18" class="edge">
+<g id="edge17" class="edge">
 <title>o3-&gt;Select 1</title>
-<path fill="none" stroke="black" d="M523.95,-750.19C523.95,-745.29 523.95,-726.46 523.95,-709.74"/>
-<polygon fill="black" stroke="black" points="527.45,-710.21 523.95,-700.21 520.45,-710.21 527.45,-710.21"/>
+<path fill="none" stroke="black" d="M244.75,-782.59C244.75,-777.69 244.75,-758.86 244.75,-742.14"/>
+<polygon fill="black" stroke="black" points="248.25,-742.61 244.75,-732.61 241.25,-742.61 248.25,-742.61"/>
 </g>
 <!-- o4 -->
 <g id="node5" class="node">
 <title>o4</title>
-<ellipse fill="black" stroke="black" cx="523.95" cy="-624.6" rx="1.8" ry="1.8"/>
+<ellipse fill="black" stroke="black" cx="244.75" cy="-640.8" rx="1.8" ry="1.8"/>
 </g>
 <!-- State 2 -->
 <g id="node19" class="node">
 <title>State 2</title>
-<polygon fill="none" stroke="green" points="545.2,-586.8 496.71,-586.8 496.71,-550.8 551.2,-550.8 551.2,-580.8 545.2,-586.8"/>
-<polyline fill="none" stroke="green" points="545.2,-586.8 545.2,-580.8"/>
-<polyline fill="none" stroke="green" points="551.2,-580.8 545.2,-580.8"/>
-<text text-anchor="middle" x="523.95" y="-564.6" font-family="Times,serif" font-size="14.00">State 2</text>
+<polygon fill="none" stroke="green" points="265.99,-586.8 217.5,-586.8 217.5,-550.8 271.99,-550.8 271.99,-580.8 265.99,-586.8"/>
+<polyline fill="none" stroke="green" points="265.99,-586.8 265.99,-580.8"/>
+<polyline fill="none" stroke="green" points="271.99,-580.8 265.99,-580.8"/>
+<text text-anchor="middle" x="244.75" y="-564.6" font-family="Times,serif" font-size="14.00">State 2</text>
 </g>
 <!-- o4&#45;&gt;State 2 -->
-<g id="edge21" class="edge">
+<g id="edge20" class="edge">
 <title>o4-&gt;State 2</title>
-<path fill="none" stroke="black" d="M523.95,-622.67C523.95,-619.57 523.95,-609.24 523.95,-598.52"/>
-<polygon fill="black" stroke="black" points="527.45,-598.57 523.95,-588.57 520.45,-598.57 527.45,-598.57"/>
+<path fill="none" stroke="black" d="M244.75,-638.59C244.75,-633.69 244.75,-614.86 244.75,-598.14"/>
+<polygon fill="black" stroke="black" points="248.25,-598.61 244.75,-588.61 241.25,-598.61 248.25,-598.61"/>
 </g>
 <!-- Prover Defaulted 1 -->
 <g id="node30" class="node">
-<title>Prover Defaulted 1</title>
-<polygon fill="none" stroke="blue" points="472.21,-586.8 355.7,-586.8 355.7,-550.8 478.21,-550.8 478.21,-580.8 472.21,-586.8"/>
-<polyline fill="none" stroke="blue" points="472.21,-586.8 472.21,-580.8"/>
-<polyline fill="none" stroke="blue" points="478.21,-580.8 472.21,-580.8"/>
-<text text-anchor="middle" x="416.95" y="-564.6" font-family="Times,serif" font-size="14.00">Prover Defaulted 1</text>
+<title>Verifier Unchallenged 1</title>
+<polygon fill="none" stroke="blue" points="193.77,-586.8 47.72,-586.8 47.72,-550.8 199.77,-550.8 199.77,-580.8 193.77,-586.8"/>
+<polyline fill="none" stroke="blue" points="193.77,-586.8 193.77,-580.8"/>
+<polyline fill="none" stroke="blue" points="199.77,-580.8 193.77,-580.8"/>
+<text text-anchor="middle" x="123.75" y="-564.6" font-family="Times,serif" font-size="14.00">Verifier Unchallenged 1</text>
 </g>
 <!-- o4&#45;&gt;Prover Defaulted 1 -->
-<g id="edge22" class="edge">
-<title>o4-&gt;Prover Defaulted 1</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M522.75,-623C516.59,-619.9 487.82,-605.43 461.83,-592.37"/>
-<polygon fill="black" stroke="black" points="463.55,-589.31 453.05,-587.95 460.41,-595.57 463.55,-589.31"/>
+<g id="edge21" class="edge">
+<title>o4-&gt;Verifier Unchallenged 1</title>
+<path fill="none" stroke="black" d="M243.39,-639.01C235.56,-634.49 195.49,-611.31 163.85,-593"/>
+<polygon fill="black" stroke="black" points="165.65,-590 155.24,-588.02 162.14,-596.06 165.65,-590"/>
 </g>
 <!-- o5 -->
 <g id="node6" class="node">
 <title>o5</title>
-<ellipse fill="black" stroke="black" cx="523.95" cy="-513" rx="1.8" ry="1.8"/>
+<ellipse fill="black" stroke="black" cx="244.75" cy="-513" rx="1.8" ry="1.8"/>
 </g>
 <!-- State n -->
 <g id="node20" class="node">
 <title>State n</title>
-<polygon fill="none" stroke="green" points="545.2,-475.2 496.71,-475.2 496.71,-439.2 551.2,-439.2 551.2,-469.2 545.2,-475.2"/>
-<polyline fill="none" stroke="green" points="545.2,-475.2 545.2,-469.2"/>
-<polyline fill="none" stroke="green" points="551.2,-469.2 545.2,-469.2"/>
-<text text-anchor="middle" x="523.95" y="-453" font-family="Times,serif" font-size="14.00">State n</text>
+<polygon fill="none" stroke="green" points="265.99,-475.2 217.5,-475.2 217.5,-439.2 271.99,-439.2 271.99,-469.2 265.99,-475.2"/>
+<polyline fill="none" stroke="green" points="265.99,-475.2 265.99,-469.2"/>
+<polyline fill="none" stroke="green" points="271.99,-469.2 265.99,-469.2"/>
+<text text-anchor="middle" x="244.75" y="-453" font-family="Times,serif" font-size="14.00">State n</text>
 </g>
 <!-- o5&#45;&gt;State n -->
-<g id="edge24" class="edge">
+<g id="edge23" class="edge">
 <title>o5-&gt;State n</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M523.95,-511.07C523.95,-507.97 523.95,-497.64 523.95,-486.92"/>
-<polygon fill="black" stroke="black" points="527.45,-486.97 523.95,-476.97 520.45,-486.97 527.45,-486.97"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M244.75,-511.07C244.75,-507.97 244.75,-497.64 244.75,-486.92"/>
+<polygon fill="black" stroke="black" points="248.25,-486.97 244.75,-476.97 241.25,-486.97 248.25,-486.97"/>
 </g>
 <!-- Verifier Defaulted 2 -->
 <g id="node22" class="node">
-<title>Verifier Defaulted 2</title>
-<polygon fill="none" stroke="green" points="472.7,-475.2 349.21,-475.2 349.21,-439.2 478.7,-439.2 478.7,-469.2 472.7,-475.2"/>
-<polyline fill="none" stroke="green" points="472.7,-475.2 472.7,-469.2"/>
-<polyline fill="none" stroke="green" points="478.7,-469.2 472.7,-469.2"/>
-<text text-anchor="middle" x="413.95" y="-453" font-family="Times,serif" font-size="14.00">Verifier Defaulted 2</text>
+<title>Prover Unchallenged 2</title>
+<polygon fill="none" stroke="green" points="429.28,-475.2 290.21,-475.2 290.21,-439.2 435.28,-439.2 435.28,-469.2 429.28,-475.2"/>
+<polyline fill="none" stroke="green" points="429.28,-475.2 429.28,-469.2"/>
+<polyline fill="none" stroke="green" points="435.28,-469.2 429.28,-469.2"/>
+<text text-anchor="middle" x="362.75" y="-453" font-family="Times,serif" font-size="14.00">Prover Unchallenged 2</text>
 </g>
 <!-- o5&#45;&gt;Verifier Defaulted 2 -->
-<g id="edge25" class="edge">
-<title>o5-&gt;Verifier Defaulted 2</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M522.72,-511.4C516.36,-508.28 486.54,-493.7 459.74,-480.59"/>
-<polygon fill="black" stroke="black" points="461.55,-477.58 451.03,-476.33 458.47,-483.87 461.55,-477.58"/>
+<g id="edge24" class="edge">
+<title>o5-&gt;Prover Unchallenged 2</title>
+<path fill="none" stroke="black" d="M246.07,-511.4C252.93,-508.27 285.16,-493.57 314.01,-480.42"/>
+<polygon fill="black" stroke="black" points="315.41,-483.63 323.06,-476.3 312.51,-477.26 315.41,-483.63"/>
 </g>
 <!-- o6 -->
 <g id="node7" class="node">
 <title>o6</title>
-<ellipse fill="black" stroke="black" cx="523.95" cy="-401.4" rx="1.8" ry="1.8"/>
+<ellipse fill="black" stroke="black" cx="244.75" cy="-401.4" rx="1.8" ry="1.8"/>
 </g>
 <!-- Verifier Defaulted n -->
 <g id="node23" class="node">
-<title>Verifier Defaulted n</title>
-<polygon fill="none" stroke="green" points="469.7,-363.6 346.21,-363.6 346.21,-327.6 475.7,-327.6 475.7,-357.6 469.7,-363.6"/>
-<polyline fill="none" stroke="green" points="469.7,-363.6 469.7,-357.6"/>
-<polyline fill="none" stroke="green" points="475.7,-357.6 469.7,-357.6"/>
-<text text-anchor="middle" x="410.95" y="-341.4" font-family="Times,serif" font-size="14.00">Verifier Defaulted n</text>
+<title>Prover Unchallenged n</title>
+<polygon fill="none" stroke="green" points="432.28,-363.6 293.21,-363.6 293.21,-327.6 438.28,-327.6 438.28,-357.6 432.28,-363.6"/>
+<polyline fill="none" stroke="green" points="432.28,-363.6 432.28,-357.6"/>
+<polyline fill="none" stroke="green" points="438.28,-357.6 432.28,-357.6"/>
+<text text-anchor="middle" x="365.75" y="-341.4" font-family="Times,serif" font-size="14.00">Prover Unchallenged n</text>
 </g>
 <!-- o6&#45;&gt;Verifier Defaulted n -->
-<g id="edge28" class="edge">
-<title>o6-&gt;Verifier Defaulted n</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M522.68,-399.8C516.15,-396.68 485.52,-382.1 457.99,-368.99"/>
-<polygon fill="black" stroke="black" points="459.54,-365.86 449.01,-364.72 456.53,-372.18 459.54,-365.86"/>
+<g id="edge27" class="edge">
+<title>o6-&gt;Prover Unchallenged n</title>
+<path fill="none" stroke="black" d="M246.11,-399.8C253.17,-396.66 286.48,-381.85 316.16,-368.65"/>
+<polygon fill="black" stroke="black" points="317.36,-371.94 325.08,-364.68 314.52,-365.55 317.36,-371.94"/>
 </g>
 <!-- Select n -->
 <g id="node29" class="node">
 <title>Select n</title>
-<polygon fill="none" stroke="blue" points="548.31,-363.6 493.6,-363.6 493.6,-327.6 554.31,-327.6 554.31,-357.6 548.31,-363.6"/>
-<polyline fill="none" stroke="blue" points="548.31,-363.6 548.31,-357.6"/>
-<polyline fill="none" stroke="blue" points="554.31,-357.6 548.31,-357.6"/>
-<text text-anchor="middle" x="523.95" y="-341.4" font-family="Times,serif" font-size="14.00">Select n</text>
+<polygon fill="none" stroke="blue" points="269.1,-363.6 214.39,-363.6 214.39,-327.6 275.1,-327.6 275.1,-357.6 269.1,-363.6"/>
+<polyline fill="none" stroke="blue" points="269.1,-363.6 269.1,-357.6"/>
+<polyline fill="none" stroke="blue" points="275.1,-357.6 269.1,-357.6"/>
+<text text-anchor="middle" x="244.75" y="-341.4" font-family="Times,serif" font-size="14.00">Select n</text>
 </g>
 <!-- o6&#45;&gt;Select n -->
-<g id="edge27" class="edge">
+<g id="edge26" class="edge">
 <title>o6-&gt;Select n</title>
-<path fill="none" stroke="black" d="M523.95,-399.47C523.95,-396.37 523.95,-386.04 523.95,-375.32"/>
-<polygon fill="black" stroke="black" points="527.45,-375.37 523.95,-365.37 520.45,-375.37 527.45,-375.37"/>
+<path fill="none" stroke="black" d="M244.75,-399.47C244.75,-396.37 244.75,-386.04 244.75,-375.32"/>
+<polygon fill="black" stroke="black" points="248.25,-375.37 244.75,-365.37 241.25,-375.37 248.25,-375.37"/>
 </g>
 <!-- o7 -->
 <g id="node8" class="node">
 <title>o7</title>
-<ellipse fill="black" stroke="black" cx="523.95" cy="-289.8" rx="1.8" ry="1.8"/>
+<ellipse fill="black" stroke="black" cx="244.75" cy="-289.8" rx="1.8" ry="1.8"/>
 </g>
 <!-- Argument -->
 <g id="node24" class="node">
 <title>Argument</title>
-<polygon fill="none" stroke="green" points="554.34,-252 487.57,-252 487.57,-216 560.34,-216 560.34,-246 554.34,-252"/>
-<polyline fill="none" stroke="green" points="554.34,-252 554.34,-246"/>
-<polyline fill="none" stroke="green" points="560.34,-246 554.34,-246"/>
-<text text-anchor="middle" x="523.95" y="-229.8" font-family="Times,serif" font-size="14.00">Argument</text>
+<polygon fill="none" stroke="green" points="275.13,-252 208.36,-252 208.36,-216 281.13,-216 281.13,-246 275.13,-252"/>
+<polyline fill="none" stroke="green" points="275.13,-252 275.13,-246"/>
+<polyline fill="none" stroke="green" points="281.13,-246 275.13,-246"/>
+<text text-anchor="middle" x="244.75" y="-229.8" font-family="Times,serif" font-size="14.00">Argument</text>
 </g>
 <!-- o7&#45;&gt;Argument -->
-<g id="edge30" class="edge">
+<g id="edge29" class="edge">
 <title>o7-&gt;Argument</title>
-<path fill="none" stroke="black" d="M523.95,-287.87C523.95,-284.77 523.95,-274.44 523.95,-263.72"/>
-<polygon fill="black" stroke="black" points="527.45,-263.77 523.95,-253.77 520.45,-263.77 527.45,-263.77"/>
+<path fill="none" stroke="black" d="M244.75,-287.87C244.75,-284.77 244.75,-274.44 244.75,-263.72"/>
+<polygon fill="black" stroke="black" points="248.25,-263.77 244.75,-253.77 241.25,-263.77 248.25,-263.77"/>
 </g>
 <!-- Prover Defaulted n -->
 <g id="node31" class="node">
-<title>Prover Defaulted n</title>
-<polygon fill="none" stroke="blue" points="463.21,-252 346.7,-252 346.7,-216 469.21,-216 469.21,-246 463.21,-252"/>
-<polyline fill="none" stroke="blue" points="463.21,-252 463.21,-246"/>
-<polyline fill="none" stroke="blue" points="469.21,-246 463.21,-246"/>
-<text text-anchor="middle" x="407.95" y="-229.8" font-family="Times,serif" font-size="14.00">Prover Defaulted n</text>
+<title>Verifier Unchallenged n</title>
+<polygon fill="none" stroke="blue" points="184.77,-252 38.72,-252 38.72,-216 190.77,-216 190.77,-246 184.77,-252"/>
+<polyline fill="none" stroke="blue" points="184.77,-252 184.77,-246"/>
+<polyline fill="none" stroke="blue" points="190.77,-246 184.77,-246"/>
+<text text-anchor="middle" x="114.75" y="-229.8" font-family="Times,serif" font-size="14.00">Verifier Unchallenged n</text>
 </g>
 <!-- o7&#45;&gt;Prover Defaulted n -->
-<g id="edge31" class="edge">
-<title>o7-&gt;Prover Defaulted n</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M522.65,-288.2C515.91,-285.07 484.23,-270.37 455.86,-257.22"/>
-<polygon fill="black" stroke="black" points="457.53,-254.14 446.99,-253.1 454.59,-260.49 457.53,-254.14"/>
+<g id="edge30" class="edge">
+<title>o7-&gt;Verifier Unchallenged n</title>
+<path fill="none" stroke="black" d="M243.29,-288.2C235.63,-285.03 199.29,-269.99 167.19,-256.7"/>
+<polygon fill="black" stroke="black" points="168.93,-253.64 158.35,-253.05 166.25,-260.1 168.93,-253.64"/>
 </g>
 <!-- o8 -->
 <g id="node9" class="node">
 <title>o8</title>
-<ellipse fill="black" stroke="black" cx="523.95" cy="-162" rx="1.8" ry="1.8"/>
+<ellipse fill="black" stroke="black" cx="244.75" cy="-162" rx="1.8" ry="1.8"/>
 </g>
 <!-- o8&#45;&gt;Proof Accepted -->
-<g id="edge34" class="edge">
+<g id="edge37" class="edge">
 <title>o8-&gt;Proof Accepted</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M522.43,-160.55C509.33,-156.7 414.29,-128.75 348.77,-109.47"/>
-<polygon fill="black" stroke="black" points="350.15,-106.23 339.57,-106.77 348.17,-112.95 350.15,-106.23"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M246.15,-160.55C257.93,-156.8 341.34,-130.27 401.63,-111.08"/>
+<polygon fill="black" stroke="black" points="402.68,-114.42 411.15,-108.05 400.56,-107.75 402.68,-114.42"/>
 </g>
 <!-- Proof Refuted -->
 <g id="node27" class="node">
 <title>Proof Refuted</title>
-<polygon fill="none" stroke="blue" points="565.42,-108 476.49,-108 476.49,-72 571.42,-72 571.42,-102 565.42,-108"/>
-<polyline fill="none" stroke="blue" points="565.42,-108 565.42,-102"/>
-<polyline fill="none" stroke="blue" points="571.42,-102 565.42,-102"/>
-<text text-anchor="middle" x="523.95" y="-85.8" font-family="Times,serif" font-size="14.00">Proof Refuted</text>
+<polygon fill="none" stroke="blue" points="228.21,-108 139.28,-108 139.28,-72 234.21,-72 234.21,-102 228.21,-108"/>
+<polyline fill="none" stroke="blue" points="228.21,-108 228.21,-102"/>
+<polyline fill="none" stroke="blue" points="234.21,-102 228.21,-102"/>
+<text text-anchor="middle" x="186.75" y="-85.8" font-family="Times,serif" font-size="14.00">Proof Refuted</text>
 </g>
 <!-- o8&#45;&gt;Proof Refuted -->
-<g id="edge33" class="edge">
+<g id="edge36" class="edge">
 <title>o8-&gt;Proof Refuted</title>
-<path fill="none" stroke="black" d="M523.95,-159.79C523.95,-154.89 523.95,-136.06 523.95,-119.34"/>
-<polygon fill="black" stroke="black" points="527.45,-119.81 523.95,-109.81 520.45,-119.81 527.45,-119.81"/>
+<path fill="none" stroke="black" d="M243.93,-160.01C240.01,-155.28 222.8,-134.51 208.27,-116.98"/>
+<polygon fill="black" stroke="black" points="211.05,-114.84 201.97,-109.38 205.66,-119.31 211.05,-114.84"/>
 </g>
 <!-- Prover Stake -->
 <g id="node10" class="node">
 <title>Prover Stake</title>
-<ellipse fill="none" stroke="black" cx="327.95" cy="-1008" rx="60.65" ry="18"/>
-<text text-anchor="middle" x="327.95" y="-1003.8" font-family="Times,serif" font-size="14.00">Prover Stake</text>
+<ellipse fill="none" stroke="black" cx="431.75" cy="-1040.4" rx="60.65" ry="18"/>
+<text text-anchor="middle" x="431.75" y="-1036.2" font-family="Times,serif" font-size="14.00">Prover Stake</text>
 </g>
 <!-- Proof -->
 <g id="node15" class="node">
 <title>Proof</title>
-<polygon fill="none" stroke="green" points="348.95,-954 300.95,-954 300.95,-918 354.95,-918 354.95,-948 348.95,-954"/>
-<polyline fill="none" stroke="green" points="348.95,-954 348.95,-948"/>
-<polyline fill="none" stroke="green" points="354.95,-948 348.95,-948"/>
-<text text-anchor="middle" x="327.95" y="-931.8" font-family="Times,serif" font-size="14.00">Proof</text>
+<polygon fill="none" stroke="green" points="452.75,-986.4 404.75,-986.4 404.75,-950.4 458.75,-950.4 458.75,-980.4 452.75,-986.4"/>
+<polyline fill="none" stroke="green" points="452.75,-986.4 452.75,-980.4"/>
+<polyline fill="none" stroke="green" points="458.75,-980.4 452.75,-980.4"/>
+<text text-anchor="middle" x="431.75" y="-964.2" font-family="Times,serif" font-size="14.00">Proof</text>
 </g>
 <!-- Prover Stake&#45;&gt;Proof -->
-<g id="edge6" class="edge">
+<g id="edge5" class="edge">
 <title>Prover Stake-&gt;Proof</title>
-<path fill="none" stroke="black" d="M327.95,-989.7C327.95,-982.41 327.95,-973.73 327.95,-965.54"/>
-<polygon fill="black" stroke="black" points="331.45,-965.62 327.95,-955.62 324.45,-965.62 331.45,-965.62"/>
+<path fill="none" stroke="black" d="M431.75,-1022.1C431.75,-1014.81 431.75,-1006.13 431.75,-997.94"/>
+<polygon fill="black" stroke="black" points="435.25,-998.02 431.75,-988.02 428.25,-998.02 435.25,-998.02"/>
 </g>
 <!-- Verifier Fee -->
 <g id="node11" class="node">
 <title>Verifier Fee</title>
-<ellipse fill="none" stroke="black" cx="57.95" cy="-162" rx="57.95" ry="18"/>
-<text text-anchor="middle" x="57.95" y="-157.8" font-family="Times,serif" font-size="14.00">Verifier Fee</text>
+<ellipse fill="none" stroke="black" cx="692.75" cy="-162" rx="57.95" ry="18"/>
+<text text-anchor="middle" x="692.75" y="-157.8" font-family="Times,serif" font-size="14.00">Verifier Fee</text>
 </g>
 <!-- Verifier Fee&#45;&gt;Challenge -->
-<g id="edge12" class="edge">
+<g id="edge11" class="edge">
 <title>Verifier Fee-&gt;Challenge</title>
-<path fill="none" stroke="black" d="M60.67,-143.7C61.83,-136.32 63.21,-127.52 64.51,-119.25"/>
-<polygon fill="black" stroke="black" points="67.94,-120.02 66.03,-109.6 61.02,-118.93 67.94,-120.02"/>
+<path fill="none" stroke="black" d="M690.03,-143.7C688.87,-136.32 687.49,-127.52 686.19,-119.25"/>
+<polygon fill="black" stroke="black" points="689.68,-118.93 684.67,-109.6 682.76,-120.02 689.68,-118.93"/>
 </g>
 <!-- Hinged Funds -->
 <g id="node12" class="node">
 <title>Hinged Funds</title>
-<ellipse fill="none" stroke="black" stroke-dasharray="5,2" cx="262.95" cy="-234" rx="65.49" ry="18"/>
-<text text-anchor="middle" x="262.95" y="-229.8" font-family="Times,serif" font-size="14.00">Hinged Funds</text>
+<ellipse fill="none" stroke="black" stroke-dasharray="5,2" cx="487.75" cy="-784.8" rx="65.49" ry="18"/>
+<text text-anchor="middle" x="487.75" y="-780.6" font-family="Times,serif" font-size="14.00">Hinged Funds</text>
 </g>
 <!-- Hinged Funds&#45;&gt;o0 -->
-<g id="edge1" class="edge">
+<g id="edge31" class="edge">
 <title>Hinged Funds-&gt;o0</title>
-<path fill="none" stroke="black" d="M262.95,-215.7C262.95,-196.91 262.95,-168.9 262.95,-163.81"/>
+<path fill="none" stroke="black" d="M499.14,-766.7C515.25,-740.82 542.75,-689.65 542.75,-641.8 542.75,-641.8 542.75,-641.8 542.75,-288.8 542.75,-237.26 542.75,-173.83 542.75,-164.24"/>
 </g>
 <!-- Prover Wallet -->
-<g id="node13" class="node">
-<title>Prover Wallet</title>
-<ellipse fill="none" stroke="black" cx="169.95" cy="-18" rx="64.93" ry="18"/>
-<text text-anchor="middle" x="169.95" y="-13.8" font-family="Times,serif" font-size="14.00">Prover Wallet</text>
+<g id="edge32" class="edge">
+<title>Hinged Funds-&gt;Prover Unchallenged 1</title>
+<path fill="none" stroke="black" d="M460.37,-768.09C444.24,-758.84 423.56,-746.97 405.65,-736.7"/>
+<polygon fill="black" stroke="black" points="407.76,-733.87 397.34,-731.93 404.28,-739.94 407.76,-733.87"/>
 </g>
 <!-- Verifier Wallet -->
-<g id="node14" class="node">
-<title>Verifier Wallet</title>
-<ellipse fill="none" stroke="black" cx="561.95" cy="-18" rx="69.75" ry="18"/>
-<text text-anchor="middle" x="561.95" y="-13.8" font-family="Times,serif" font-size="14.00">Verifier Wallet</text>
+<g id="edge33" class="edge">
+<title>Hinged Funds-&gt;Prover Unchallenged 2</title>
+<path fill="none" stroke="black" d="M481.2,-766.75C460.87,-713.8 398.67,-551.78 373.49,-486.2"/>
+<polygon fill="black" stroke="black" points="376.77,-484.97 369.92,-476.88 370.24,-487.47 376.77,-484.97"/>
 </g>
 <!-- Proof&#45;&gt;o1 -->
-<g id="edge7" class="edge">
-<title>Proof-&gt;o1</title>
-<path fill="none" stroke="black" d="M355.21,-927.52C405.28,-913.78 508.1,-885.55 522.31,-881.65"/>
+<g id="edge34" class="edge">
+<title>Hinged Funds-&gt;Prover Unchallenged n</title>
+<path fill="none" stroke="black" d="M488.98,-766.39C492,-714.22 496.06,-555.6 444.75,-439.2 433.25,-413.11 411.92,-388.8 394.33,-371.64"/>
+<polygon fill="black" stroke="black" points="396.82,-369.18 387.15,-364.85 392.01,-374.27 396.82,-369.18"/>
 </g>
 <!-- Proof&#45;&gt;o2 -->
-<g id="edge8" class="edge">
-<title>Proof-&gt;o2</title>
-<path fill="none" stroke="cyan" d="M300.7,-932.35C246.85,-925.46 131.95,-901.81 131.95,-825.4 131.95,-825.4 131.95,-825.4 131.95,-288.8 131.95,-237.23 135.35,-173.83 135.88,-164.24"/>
+<g id="node13" class="node">
+<title>Prover Wallet</title>
+<ellipse fill="none" stroke="black" cx="580.75" cy="-18" rx="64.93" ry="18"/>
+<text text-anchor="middle" x="580.75" y="-13.8" font-family="Times,serif" font-size="14.00">Prover Wallet</text>
 </g>
 <!-- No Challenge&#45;&gt;Prover Wallet -->
-<g id="edge4" class="edge">
-<title>No Challenge-&gt;Prover Wallet</title>
-<path fill="none" stroke="black" d="M169.95,-71.7C169.95,-64.41 169.95,-55.73 169.95,-47.54"/>
-<polygon fill="black" stroke="black" points="173.45,-47.62 169.95,-37.62 166.45,-47.62 173.45,-47.62"/>
+<g id="node14" class="node">
+<title>Verifier Wallet</title>
+<ellipse fill="none" stroke="black" cx="69.75" cy="-18" rx="69.75" ry="18"/>
+<text text-anchor="middle" x="69.75" y="-13.8" font-family="Times,serif" font-size="14.00">Verifier Wallet</text>
 </g>
 <!-- Proof Accepted&#45;&gt;Prover Wallet -->
-<g id="edge5" class="edge">
-<title>Proof Accepted-&gt;Prover Wallet</title>
-<path fill="none" stroke="black" d="M256.98,-71.52C241.53,-62.19 222.38,-50.64 205.98,-40.74"/>
-<polygon fill="black" stroke="black" points="207.85,-37.78 197.48,-35.61 204.23,-43.77 207.85,-37.78"/>
+<g id="edge6" class="edge">
+<title>Proof-&gt;o1</title>
+<path fill="none" stroke="black" d="M404.56,-959.58C356.34,-945.7 259.65,-917.89 246.29,-914.04"/>
 </g>
 <!-- State 1&#45;&gt;o3 -->
-<g id="edge17" class="edge">
-<title>State 1-&gt;o3</title>
-<path fill="none" stroke="black" d="M523.95,-806.1C523.95,-787.31 523.95,-759.3 523.95,-754.21"/>
+<g id="edge7" class="edge">
+<title>Proof-&gt;o2</title>
+<path fill="none" stroke="cyan" d="M458.94,-964.14C510.8,-956.23 618.75,-930.99 618.75,-857.8 618.75,-857.8 618.75,-857.8 618.75,-288.8 618.75,-237.23 615.35,-173.83 614.82,-164.24"/>
 </g>
 <!-- State 2&#45;&gt;o5 -->
-<g id="edge23" class="edge">
-<title>State 2-&gt;o5</title>
-<path fill="none" stroke="black" d="M523.95,-550.48C523.95,-536.97 523.95,-519.74 523.95,-515.16"/>
+<g id="edge3" class="edge">
+<title>No Challenge-&gt;Prover Wallet</title>
+<path fill="none" stroke="black" d="M580.75,-71.7C580.75,-64.41 580.75,-55.73 580.75,-47.54"/>
+<polygon fill="black" stroke="black" points="584.25,-47.62 580.75,-37.62 577.25,-47.62 584.25,-47.62"/>
 </g>
 <!-- State n&#45;&gt;o6 -->
-<g id="edge26" class="edge">
-<title>State n-&gt;o6</title>
-<path fill="none" stroke="black" d="M523.95,-438.88C523.95,-425.37 523.95,-408.14 523.95,-403.56"/>
+<g id="edge4" class="edge">
+<title>Proof Accepted-&gt;Prover Wallet</title>
+<path fill="none" stroke="black" d="M493.72,-71.52C509.17,-62.19 528.32,-50.64 544.72,-40.74"/>
+<polygon fill="black" stroke="black" points="546.47,-43.77 553.22,-35.61 542.85,-37.78 546.47,-43.77"/>
 </g>
 <!-- Argument&#45;&gt;o8 -->
-<g id="edge32" class="edge">
-<title>Argument-&gt;o8</title>
-<path fill="none" stroke="black" d="M523.95,-215.7C523.95,-196.91 523.95,-168.9 523.95,-163.81"/>
+<g id="edge16" class="edge">
+<title>State 1-&gt;o3</title>
+<path fill="none" stroke="black" d="M244.75,-838.5C244.75,-819.71 244.75,-791.7 244.75,-786.61"/>
 </g>
 <!-- Challenge&#45;&gt;Prover Wallet -->
-<g id="edge13" class="edge">
-<title>Challenge-&gt;Prover Wallet</title>
-<path fill="none" stroke="black" d="M94.18,-71.52C107.28,-62.44 123.44,-51.23 137.47,-41.51"/>
-<polygon fill="black" stroke="black" points="139.31,-44.5 145.53,-35.93 135.32,-38.75 139.31,-44.5"/>
+<g id="edge22" class="edge">
+<title>State 2-&gt;o5</title>
+<path fill="none" stroke="black" d="M244.75,-550.48C244.75,-536.97 244.75,-519.74 244.75,-515.16"/>
 </g>
 <!-- Prover Defaulted&#45;&gt;Verifier Wallet -->
-<g id="edge15" class="edge">
-<title>Prover Defaulted-&gt;Verifier Wallet</title>
-<path fill="none" stroke="black" d="M599.95,-734.31C599.95,-710.11 599.95,-664.48 599.95,-625.6 599.95,-625.6 599.95,-625.6 599.95,-161 599.95,-120.18 585.12,-74.93 573.99,-46.72"/>
-<polygon fill="black" stroke="black" points="577.24,-45.43 570.22,-37.49 570.76,-48.08 577.24,-45.43"/>
+<g id="edge25" class="edge">
+<title>State n-&gt;o6</title>
+<path fill="none" stroke="black" d="M244.75,-438.88C244.75,-425.37 244.75,-408.14 244.75,-403.56"/>
 </g>
 <!-- Proof Refuted&#45;&gt;Verifier Wallet -->
 <g id="edge35" class="edge">
-<title>Proof Refuted-&gt;Verifier Wallet</title>
-<path fill="none" stroke="black" d="M533.35,-71.7C537.53,-63.98 542.57,-54.71 547.24,-46.11"/>
-<polygon fill="black" stroke="black" points="550.25,-47.89 551.95,-37.43 544.1,-44.55 550.25,-47.89"/>
+<title>Argument-&gt;o8</title>
+<path fill="none" stroke="black" d="M244.75,-215.7C244.75,-196.91 244.75,-168.9 244.75,-163.81"/>
 </g>
 <!-- Select 1&#45;&gt;o4 -->
-<g id="edge20" class="edge">
-<title>Select 1-&gt;o4</title>
-<path fill="none" stroke="black" d="M523.95,-662.08C523.95,-648.57 523.95,-631.34 523.95,-626.76"/>
+<g id="edge12" class="edge">
+<title>Challenge-&gt;Prover Wallet</title>
+<path fill="none" stroke="black" d="M656.52,-71.52C643.42,-62.44 627.26,-51.23 613.23,-41.51"/>
+<polygon fill="black" stroke="black" points="615.38,-38.75 605.17,-35.93 611.39,-44.5 615.38,-38.75"/>
+</g>
+<!-- Select 1&#45;&gt;o4 -->
+<g id="edge14" class="edge">
+<title>Verifier Unchallenged-&gt;Verifier Wallet</title>
+<path fill="none" stroke="black" d="M64.2,-622.39C43.17,-599.58 10.75,-557.39 10.75,-514 10.75,-514 10.75,-514 10.75,-161 10.75,-117.97 34.14,-72.82 51.47,-45.29"/>
+<polygon fill="black" stroke="black" points="54.18,-47.54 56.7,-37.25 48.31,-43.72 54.18,-47.54"/>
 </g>
 <!-- Select n&#45;&gt;o7 -->
-<g id="edge29" class="edge">
+<g id="edge38" class="edge">
+<title>Proof Refuted-&gt;Verifier Wallet</title>
+<path fill="none" stroke="black" d="M157.52,-71.52C142.05,-62.26 122.9,-50.8 106.44,-40.95"/>
+<polygon fill="black" stroke="black" points="108.27,-37.97 97.89,-35.84 104.68,-43.98 108.27,-37.97"/>
+</g>
+<!-- Select n&#45;&gt;o7 -->
+<g id="edge19" class="edge">
+<title>Select 1-&gt;o4</title>
+<path fill="none" stroke="black" d="M244.75,-694.5C244.75,-675.71 244.75,-647.7 244.75,-642.61"/>
+</g>
+<!-- Select n&#45;&gt;o7 -->
+<g id="edge28" class="edge">
 <title>Select n-&gt;o7</title>
-<path fill="none" stroke="black" d="M523.95,-327.28C523.95,-313.77 523.95,-296.54 523.95,-291.96"/>
+<path fill="none" stroke="black" d="M244.75,-327.28C244.75,-313.77 244.75,-296.54 244.75,-291.96"/>
 </g>
 </g>
 </svg>
