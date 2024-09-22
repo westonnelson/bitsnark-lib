@@ -1,46 +1,65 @@
 digraph BitSnark {
     /* Styling. */
-    node [shape=note]
-    {node [shape=point] o0 o1 o2 o3 o4 o5 o6 o7 o8}
-    {node [shape=oval] "Prover Stake" "Verifier Fee" "Hinged Funds" "Prover Wallet" "Verifier Wallet"}
-    {node [color=green] "Proof" "No Challenge" "Proof Accepted" "State 1" "State 2" "State n" "Prover Unchallenged 1" "Prover Unchallenged 2" "Prover Unchallenged n" "Argument"}
-    {node [color=blue] "Challenge" "Verifier Unchallenged" "Proof Refuted" "Select 1" "Select n" "Verifier Unchallenged 1" "Verifier Unchallenged n"}
-    "Hinged Funds" [style=dashed]
+    {node [shape=oval]
+        prover_stake [label="Prover Stake"]
+        verifier_payment [label="Verifier Payment"]
+        prover_wallet [label="Prover Wallet"]
+        verifier_wallet [label="Verifier Wallet"]
+        hinged_funds [label="Hinged Funds";style=dashed]
+    }
+    {node [shape=note; color=green]
+        proof [label="Proof"]
+        no_challenge [label="No Challenge"]
+        proof_accepted [label="Proof Accepted"]
+        state_0 [label="State\n0"]
+        state_n [label="State\nn"]
+        prover_unchallenged_0 [label="Prover\nUnchallenged\n0"]
+        prover_unchallenged_n [label="Prover\nUnchallenged\nn"]
+        argument [label="Argument"]
+    }
+    {node [shape=note;color=blue]
+        challenge [label="Challenge"]
+        verifier_unchallenged [label="Verifier\nUnchallenged"]
+        select_0 [label="Select\n0"]
+        select_n [label="Select\nn"]
+        verifier_unchallenged_0 [label="Verifier\nUnchallenged\n0"]
+        verifier_unchallenged_n [label="Verifier\nUnchallenged\nn"]
+        proof_refuted [label="Proof Refuted"]
+    }
+    {node [shape=point] o0 o1 o2 o3 o4 o5 o6}
 
     /* Main Flow. */
-    o0 -> {"No Challenge"; "Proof Accepted"} -> "Prover Wallet" [weight=5]
-    "Prover Stake" -> "Proof"
-    "Proof" -> o1 [arrowhead=none]
-    "Proof" -> o2 [arrowhead=none; color=cyan]
-    o2 -> {"No Challenge"; "Challenge"} [color=cyan]
-    o1 -> "No Challenge" [style=dashed; color=green]
-    "Verifier Fee" -> "Challenge" -> "Prover Wallet"
-    o1 -> "Verifier Unchallenged" [style=dashed; color=blue]
-    "Verifier Unchallenged" -> "Verifier Wallet" [weight=1]
+    o0 -> {no_challenge; proof_accepted} -> prover_wallet [weight=5]
+    prover_stake -> proof
+    proof -> o1 [arrowhead=none]
+    proof -> o2 [arrowhead=none; color=cyan]
+    o2 -> {no_challenge; challenge} [color=cyan]
+    o1 -> no_challenge [style=dashed; color=green]
+    verifier_payment -> challenge -> prover_wallet
+    o1 -> verifier_unchallenged [style=dashed; color=blue]
+    verifier_unchallenged -> verifier_wallet [weight=1]
 
     /* Contention Bisection. */
-    o1 -> "State 1" [weight=5]
-    "State 1" -> o3 [arrowhead=none; weight=2]
-    o3 -> "Select 1" [weight=5]
-    o3 -> "Prover Unchallenged 1" [style=dashed]
-    "Select 1" -> o4 [arrowhead=none; weight=5]
-    o4 -> "State 2" [weight=5]
-    o4 -> "Verifier Unchallenged 1" [style=dashed]
-    "State 2" -> o5 [arrowhead=none; weight=5]
-    o5 -> "State n" [style=dotted; weight=5]
-    o5 -> "Prover Unchallenged 2" [style=dashed]
-    "State n" -> o6 [arrowhead=none; weight=5]
-    o6 -> "Select n" [weight=5]
-    o6 -> "Prover Unchallenged n" [style=dashed]
-    "Select n" -> o7 [arrowhead=none; weight=5]
-    o7 -> "Argument" [weight=5]
-    o7 -> "Verifier Unchallenged n" [style=dashed]
+    o1 -> state_0 [weight=5]
+    state_0 -> o3 [arrowhead=none; weight=2]
+    o3 -> select_0 [weight=5]
+    o3 -> prover_unchallenged_0 [style=dashed;weight=2]
+    select_0 -> verifier_unchallenged_0 [style=dashed]
+    select_0 -> state_n [style=dotted; weight=5]
+    state_n -> o4 [arrowhead=none; weight=5]
+    o4 -> select_n [weight=5]
+    o4 -> prover_unchallenged_n [style=dashed]
+    select_n -> o5 [arrowhead=none; weight=5]
+    o5 -> argument [weight=5]
+    o5 -> verifier_unchallenged_n [style=dashed]
 
     /* Contention Resolution. */
-    "Hinged Funds" -> o0 [arrowhead=none]
-    "Hinged Funds" -> {"Prover Unchallenged 1" "Prover Unchallenged 2" "Prover Unchallenged n"} [weight=0]
-    "Argument" -> o8  [arrowhead=none]
-    o8 -> "Proof Refuted"
-    o8 -> "Proof Accepted" [style=dashed]
-    "Proof Refuted" -> "Verifier Wallet"
+    hinged_funds -> o0 [arrowhead=none]
+    hinged_funds -> {prover_unchallenged_0 prover_unchallenged_n} [weight=0]
+    argument -> o6  [arrowhead=none]
+    o6 -> proof_refuted
+    o6 -> proof_accepted [style=dashed]
+    proof_refuted -> verifier_wallet
 }
+
+
